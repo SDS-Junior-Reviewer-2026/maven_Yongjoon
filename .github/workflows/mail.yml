@@ -25,4 +25,4 @@ jobs:
         aws ses send-email \
           --from "yongjoon2__@naver.com" \
           --destination "ToAddresses=sejin.choi@mincoding.co.kr" \
-          --message "Subject={Data=권용준}, Body={Text={Data=cout << hello, world! << endl;}}"
+          --message "Subject={Data='권용준'}, Body={Text={Data='printf("Hello, world!};'}"
